@@ -369,7 +369,7 @@
               <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            <div class="text-center"><button onclick="myFunction()" type="submit">Send Message</button></div>
           </form>
         </div>
 
@@ -418,6 +418,11 @@
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
+  <script>
+    function myFunction (){
+      alert ("Message Sented")
+      }
+    </script>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
